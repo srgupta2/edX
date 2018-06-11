@@ -76,7 +76,7 @@ IF STATEMENTS: depends on boolean condition
 - if--> else if--> else
 
 Loops:
-while(){statement, update variable}, var declaration outside of loop (otherwise resets every time)
+while(){statement, UPDATE VARIABLE}, var declaration outside of loop (otherwise resets every time)
 for (int i = 1, i<30, i++){}
 
 -setting a var for user input, using that as the loop limit
@@ -96,7 +96,23 @@ Returns:
 - at end: return data;
 - "capture" data: var = functionName(parameter);
 
-s
+Math class useful functions:
+- int x = Math.abs(-2):
+- double x = Math.pow(base, exp)
+- double x = Math.random(); --generates bw 0 and 1
+
+String method:
+- str.equals(IgnoreCase)("");
+- "str".replace("r", "range); --> strange
+- str.indexOf
+
+Recursion:
+
+
+
  */
 
 // put these files on Git for own laptop :P..maybe write up notes too
+
+//testing new comments updating on git--maybe recommit/ add same file which will replace old one?
+//else just remove from git (not local!!!) and recommit
