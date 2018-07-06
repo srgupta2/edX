@@ -107,12 +107,20 @@ String method:
 - str.indexOf
 
 Recursion:
+- basically iteration, calling method within itself, small part of big function
+-Ex. factorials
+base case: smallest piece, cannot be broken down further
+recursive case: described with multiple smaller occurrences
+- recursive call must have a different parameter value than what was given
+-parameter values moving closer to base case
+-
+- essentially a different parameter each time, some change/ update happening when call method (in method)
+-parameter is an end case that essentially sets a max as a stopping point
+1. write out a few cases/break it down to notice pattern with actual numbers
+2. generalize it
+3. write into method
 
+Recursive tracing:
 
 
  */
-
-// put these files on Git for own laptop :P..maybe write up notes too
-
-//testing new comments updating on git--maybe recommit/ add same file which will replace old one?
-//else just remove from git (not local!!!) and recommit
